@@ -1,0 +1,9 @@
+### line-bot-example
+當訊息量多且雜的情況下，程式碼會越來越冗長 \
+所以將必要內容以json形式儲存，再以表單方法處理 \
+範例回傳內容寫在 messages/example.json
+* text
+* buttons
+* carousel
+* confirm
+* imagemap

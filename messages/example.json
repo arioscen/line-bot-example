@@ -1,0 +1,270 @@
+[
+    {
+        "message":"text",
+        "type":"text",
+        "text":"ex-text"
+    },
+    {
+        "message":"buttons",
+        "type":"buttons",
+        "thumbnail_image_url":"https://i.imgur.com/e4DaAYK.jpg",
+        "title":"title",
+        "text":"text",
+        "actions":[
+            {
+                "label":"text",
+                "text":"text"
+            },
+            {
+                "label":"postback",
+                "data":"data"
+            },
+            {
+                "label":"uri",
+                "uri":"http://example.com/"
+            },
+            {
+                "label":"datetime",
+                "data":"data",
+                "mode":"datetime"
+            }
+        ]
+    },
+    {
+        "message":"carousel",
+        "type":"carousel",
+        "columns":[
+            {
+                "thumbnail_image_url":"https://i.imgur.com/e4DaAYK.jpg",
+                "title":"title",
+                "text":"text",
+                "actions":[
+                    {
+                        "label":"text",
+                        "text":"text"
+                    },
+                    {
+                        "label":"postback",
+                        "data":"data"
+                    },
+                    {
+                        "label":"uri",
+                        "uri":"http://example.com/"
+                    }
+                ]
+            },
+            {
+                "thumbnail_image_url":"https://i.imgur.com/e4DaAYK.jpg",
+                "title":"title",
+                "text":"text",
+                "actions":[
+                    {
+                        "label":"text",
+                        "text":"text"
+                    },
+                    {
+                        "label":"postback",
+                        "data":"data"
+                    },
+                    {
+                        "label":"uri",
+                        "uri":"http://example.com/"
+                    }
+                ]
+            },
+            {
+                "thumbnail_image_url":"https://i.imgur.com/e4DaAYK.jpg",
+                "title":"title",
+                "text":"text",
+                "actions":[
+                    {
+                        "label":"text",
+                        "text":"text"
+                    },
+                    {
+                        "label":"postback",
+                        "data":"data"
+                    },
+                    {
+                        "label":"uri",
+                        "uri":"http://example.com/"
+                    }
+                ]
+            },
+            {
+                "thumbnail_image_url":"https://i.imgur.com/e4DaAYK.jpg",
+                "title":"title",
+                "text":"text",
+                "actions":[
+                    {
+                        "label":"text",
+                        "text":"text"
+                    },
+                    {
+                        "label":"postback",
+                        "data":"data"
+                    },
+                    {
+                        "label":"uri",
+                        "uri":"http://example.com/"
+                    }
+                ]
+            },
+            {
+                "thumbnail_image_url":"https://i.imgur.com/e4DaAYK.jpg",
+                "title":"title",
+                "text":"text",
+                "actions":[
+                    {
+                        "label":"text",
+                        "text":"text"
+                    },
+                    {
+                        "label":"postback",
+                        "data":"data"
+                    },
+                    {
+                        "label":"uri",
+                        "uri":"http://example.com/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "message":"confirm",
+        "type":"confirm",
+        "text":"text",
+        "actions":[
+            {
+                "label":"text",
+                "text":"text"
+            },
+            {
+                "label":"postback",
+                "data":"data"
+            }
+        ]
+    },
+    {
+        "message": "imagemap",
+        "type": "imagemap",
+        "base_url": "https://i.imgur.com/xGE1V2N.png",
+        "height": 1040,
+        "width": 1040,
+        "actions": [
+            {
+                "link_uri":"https://example.com/",
+                "x": 0,
+                "y": 0,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "2",
+                "x": 261,
+                "y": 0,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "3",
+                "x": 521,
+                "y": 0,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "4",
+                "x": 781,
+                "y": 0,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "5",
+                "x": 0,
+                "y": 261,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "6",
+                "x": 261,
+                "y": 261,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "7",
+                "x": 521,
+                "y": 261,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "8",
+                "x": 781,
+                "y": 261,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "9",
+                "x": 0,
+                "y": 521,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "10",
+                "x": 261,
+                "y": 521,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "11",
+                "x": 521,
+                "y": 521,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "12",
+                "x": 781,
+                "y": 521,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "13",
+                "x": 0,
+                "y": 781,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "14",
+                "x": 261,
+                "y": 781,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "15",
+                "x": 521,
+                "y": 781,
+                "width": 260,
+                "height": 260
+            },
+            {
+                "text": "16",
+                "x": 781,
+                "y": 781,
+                "width": 260,
+                "height": 260
+            }
+        ]
+    }
+]
